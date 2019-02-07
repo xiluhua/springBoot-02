@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ImportResource;
 
-@ImportResource(value = {"classpath:applicationContext.xml"})
+@ImportResource(value = {"classpath:spring.xml"})
 @SpringBootApplication
 public class SpringBoot02Application {
 
